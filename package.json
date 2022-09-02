@@ -1,0 +1,20 @@
+{
+  "name": "elementary-express-server-starter",
+  "version": "1.0.0",
+  "description": "An elementary starter package for developing express servers.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "sabberdev001",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
